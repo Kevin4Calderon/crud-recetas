@@ -11,7 +11,6 @@ const Favoritas = () => {
       {favoritas.map((receta) => (
         <div key={receta.id} className="receta-card">
           <h3>{receta.nombre}</h3>
-          {receta.imagen && <img src={receta.imagen} alt={receta.nombre} />}
         </div>
       ))}
     </div>
